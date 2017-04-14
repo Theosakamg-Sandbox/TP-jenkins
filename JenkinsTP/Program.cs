@@ -1,6 +1,6 @@
-using System;
+﻿using System;
 
-namespace test
+namespace JenkinsTP
 {
 	class MainClass
 	{
@@ -10,4 +10,3 @@ namespace test
 		}
 	}
 }
-
