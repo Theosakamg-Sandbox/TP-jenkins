@@ -20,6 +20,16 @@ namespace JenkinsTest
 
 			Assert.AreEqual (a + b, result);
 		}
+		
+		[Test ()]
+		public void TestAdd2()
+		{
+			Program app = new Program ();
+
+			int result = app.Add (a, b);
+
+			Assert.AreEqual (a + b + 1, result);
+		}
 
 		[Test ()]
 		public void TestDiv()
