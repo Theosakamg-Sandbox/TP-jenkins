@@ -26,9 +26,9 @@ namespace JenkinsTest
 		{
 			Program app = new Program ();
 
-			int result = app.Add (a, b);
+			int result = app.Add (a+2, b);
 
-			Assert.AreEqual (a + b + 1, result);
+			Assert.AreEqual (a+2 + b, result);
 		}
 
 		[Test ()]
