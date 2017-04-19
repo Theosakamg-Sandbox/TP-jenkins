@@ -1,13 +1,9 @@
-﻿using System;
-
 namespace JenkinsTP
 {
+  ﻿using System;
+  
   public class Program
   {
-    protected static void Main ( )
-    {
-      Console.WriteLine ("Hello World!");
-    }
 
     public int Add(int a, int b)
     {
@@ -18,5 +14,11 @@ namespace JenkinsTP
     {
       return a / b;
     }
+    
+        protected static void Main()
+    {
+      Console.WriteLine ("Hello World!");
+    }
+
   }
 }
